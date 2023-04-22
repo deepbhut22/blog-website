@@ -1,0 +1,10 @@
+<%- include("partials/header")-%>
+
+<h1>Compose</h1>
+<p><%= tryy %></p>
+<form action="/compose" method="post">
+    <div class="class-group">id : <input class="form-control" type="text" name="id" id=""></div>
+    <div class="class-group">pass : <input class="form-control" type="password" name="pass" id=""></div>
+    <div class="class-group"><button class="btn btn" type="submit">compose</button></div>
+</form>
+<%- include("partials/footer")-%>
